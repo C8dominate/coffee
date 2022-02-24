@@ -1,7 +1,7 @@
-@import "https://fonts.googleapis.com/css?family=Josefin Sans";
+
 html,
 body {
-  font-family: Josefin Sans;
+  font-family:  'Redressed', cursive;
   background-color: #e4e1dc;
   color: #3e4546; /*gray*/
   font-weight: 300;
@@ -45,8 +45,8 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #491404; /*brown*/
-  font-size: 16px;
+  color: #493404; /*brown*/
+  font-size: 6px;
   font-weight: lighter;
   text-transform: uppercase;
 }
@@ -77,7 +77,7 @@ section ul li h1 {
 }
 #overmain {
   list-style-type: none;
-  color: #fff;
+  color: #493404;
   text-align: center;
   padding-bottom: 9%;
 }
@@ -227,12 +227,19 @@ h3 {
 /*------- //FOOTER ----------*/
 
 /*-------- QUERIES ----------*/
+a{
+  color: #493d04;
+
+}
+
 @media screen and (min-width: 768px) {
   .menu {
     display: none;
   }
   button {
     display: none;
+    
+
   }
   .nav li a:after {
     display: block;
@@ -241,15 +248,15 @@ h3 {
     width: 85%;
     border-radius: 5px;
     transform: scaleX(0);
-    transition: transform 290ms ease-in-out;
-    transform-origin: 100% 50%;
+    transition: transform 290ms
   }
   .nav li a:hover:after {
-    transform: scaleX(1);
+    transform: scaleX(0.9);
     transform-origin: 0 50%;
   }
   nav {
     position: absolute;
+    
   }
 }
 * {
